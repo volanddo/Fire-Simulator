@@ -1,0 +1,30 @@
+Ensimag 2A POO - TP 2022/23
+============================
+
+/!\ Commandes à lancer à la racine du projet /!\
+
+================== Test du projet ==========================================================
+
+
+- Pour tester la classe Evenement, taper : make testEvent
+
+- Pour tester si le projet fonctionne sur chaque map, taper : make testProject
+  (Note : Le test sur la carte spiralOfMadness est un peu fastidieux, c'est normal si les robots
+  mettent un peu de temps à se déplacer)
+
+- Pour nettoyer le dossier, taper : make clean
+
+
+=================  Documentation ============================================================
+
+
+- Pour créer toute la documentation : make documentation
+  (Note : pour lire la documentation d'un package, cliquer sur le fichier doc/<nom du package>/index.html )
+  
+- Pour créer la documentation du robot : make robotdoc
+- Pour créer la documentation du robot : make environmentdoc
+- Pour créer la documentation de la simulation : make simulationdoc
+- Pour créer la documentation du test : make testdoc
+- Pour créer la documentation du evenementAvances : make evenementAvancesdoc
+- Pour créer la documentation du evenementElementaire : make evenementElementairedoc
+
